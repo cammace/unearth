@@ -1,0 +1,4 @@
+include ':unearth'
+include ':unearth-app'
+
+rootProject.name = 'unearth-parent'

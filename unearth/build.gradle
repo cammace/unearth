@@ -1,0 +1,21 @@
+apply plugin: 'java-library'
+
+dependencies {
+
+  // Networking
+  api "com.squareup.retrofit2:retrofit:2.3.0"
+  implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+  implementation 'com.squareup.moshi:moshi:1.5.0'
+
+  // Logging
+  implementation 'com.jakewharton.timber:timber:4.6.1'
+
+  // Annotations
+  compileOnly "com.android.support:support-annotations:27.0.2"
+
+  // AutoValue
+  compileOnly "com.google.auto.value:auto-value:1.5.3"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
